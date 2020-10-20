@@ -25,7 +25,7 @@ def create_todo():
     token_v2 = os.environ.get("TOKEN")
     url = os.environ.get("URL")
     createNotionTask(token_v2, url, message, user)
-    return f'added {todo} to Notion'
+    return f'added to Notion'
 
 
 if __name__ == '__main__':
